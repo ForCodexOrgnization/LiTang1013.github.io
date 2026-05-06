@@ -1,0 +1,19 @@
+---
+title: "Research"
+---
+
+## Mitochondrial Genomics
+
+I study mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, and comparative genomics.
+
+## Large-scale Sequencing Analysis
+
+I work with WGS/WES-scale datasets, variant calling, annotation, and burden analysis.
+
+## Research Interests
+
+- Mitochondrial DNA variation
+- Variant interpretation
+- NUMTs and heteroplasmy artifacts
+- Primate comparative genomics
+- Large-scale WGS/WES analysis

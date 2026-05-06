@@ -1,0 +1,67 @@
+---
+title: "Home"
+---
+
+::: {.hero}
+# Li Tang
+
+## Bioinformatics Researcher & Educator
+
+Turning biological questions into clear bioinformatics workflows.
+
+::: {.button-row}
+[Research](research.qmd){.custom-button}
+[Tutorials](tutorials.qmd){.custom-button}
+[Contact](contact.qmd){.custom-button}
+:::
+:::
+
+## About Me
+
+I am a bioinformatics postdoctoral researcher working on mitochondrial genomics, variant interpretation, and sequencing data analysis.
+
+I create practical bioinformatics content for experimental scientists, PhD students, and postdocs who want to better understand data analysis.
+
+## Featured Video
+
+::: {.video-wrapper}
+<iframe src="https://www.youtube.com/embed/VIDEO_ID"
+title="Featured YouTube video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+:::
+
+[Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID){.custom-button}
+
+## What I Do
+
+::: {.card-grid}
+
+::: {.custom-card}
+### Research
+
+Mitochondrial genomics, variant interpretation, NUMTs, heteroplasmy, and comparative genomics.
+:::
+
+::: {.custom-card}
+### Tutorials
+
+Practical bioinformatics tutorials for experimental scientists, PhD students, and postdocs.
+:::
+
+::: {.custom-card}
+### Resources
+
+Checklists, templates, code snippets, and workflow notes for sequencing data analysis.
+:::
+
+:::
+
+## Research Focus
+
+- Mitochondrial DNA variation
+- Primate comparative genomics
+- NUMTs and heteroplasmy artifacts
+- Large-scale WGS/WES analysis
+- Variant interpretation

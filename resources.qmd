@@ -1,0 +1,15 @@
+---
+title: "Resources"
+---
+
+## Free Resources
+
+Coming soon.
+
+Planned resources:
+
+- Bioinformatics project planning checklist
+- NGS analysis workflow template
+- VCF interpretation cheat sheet
+- Slurm job script template
+- Weekly research update template

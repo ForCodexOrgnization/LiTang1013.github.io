@@ -1,0 +1,18 @@
+---
+title: "CV"
+---
+
+## CV
+
+You can download my CV here:
+
+[Download CV](files/Li_Tang_CV.pdf)
+
+## Selected Skills
+
+- R, Python, Bash
+- GATK, bcftools, samtools
+- WGS/WES analysis
+- Variant calling and annotation
+- HPC / Slurm
+- Mitochondrial genomics

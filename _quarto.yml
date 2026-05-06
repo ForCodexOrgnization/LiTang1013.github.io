@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Li Tang Bioinformatics"
+  navbar:
+    title: "Li Tang Bioinformatics"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: tutorials.qmd
+        text: Tutorials
+      - href: resources.qmd
+        text: Resources
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/LiTang1013
+      - icon: youtube
+        href: https://www.youtube.com/@YOUR_CHANNEL
+
+  page-footer:
+    left: "© 2026 Li Tang"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    page-layout: full
