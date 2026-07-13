@@ -1,93 +1,23 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Coming soon.\nPlanned resources:\n\nBioinformatics project planning checklist\nNGS analysis workflow template\nVCF interpretation cheat sheet\nSlurm job script template\nWeekly research update template"
-  },
-  {
-    "objectID": "resources.html#free-resources",
-    "href": "resources.html#free-resources",
-    "title": "Resources",
-    "section": "",
-    "text": "Coming soon.\nPlanned resources:\n\nBioinformatics project planning checklist\nNGS analysis workflow template\nVCF interpretation cheat sheet\nSlurm job script template\nWeekly research update template"
-  },
-  {
-    "objectID": "tutorials.html",
-    "href": "tutorials.html",
-    "title": "Research",
-    "section": "",
-    "text": "I study mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, and comparative genomics."
-  },
-  {
-    "objectID": "tutorials.html#mitochondrial-genomics",
-    "href": "tutorials.html#mitochondrial-genomics",
-    "title": "Research",
-    "section": "",
-    "text": "I study mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, and comparative genomics."
-  },
-  {
-    "objectID": "tutorials.html#large-scale-sequencing-analysis",
-    "href": "tutorials.html#large-scale-sequencing-analysis",
-    "title": "Research",
-    "section": "Large-scale Sequencing Analysis",
-    "text": "Large-scale Sequencing Analysis\nI work with WGS/WES-scale datasets, variant calling, annotation, and burden analysis."
-  },
-  {
-    "objectID": "tutorials.html#research-interests",
-    "href": "tutorials.html#research-interests",
-    "title": "Research",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nMitochondrial DNA variation\nVariant interpretation\nNUMTs and heteroplasmy artifacts\nPrimate comparative genomics\nLarge-scale WGS/WES analysis"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "You can download my CV here:\nDownload CV"
-  },
-  {
-    "objectID": "cv.html#cv",
-    "href": "cv.html#cv",
-    "title": "CV",
-    "section": "",
-    "text": "You can download my CV here:\nDownload CV"
-  },
-  {
-    "objectID": "cv.html#selected-skills",
-    "href": "cv.html#selected-skills",
-    "title": "CV",
-    "section": "Selected Skills",
-    "text": "Selected Skills\n\nR, Python, Bash\nGATK, bcftools, samtools\nWGS/WES analysis\nVariant calling and annotation\nHPC / Slurm\nMitochondrial genomics"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Li Tang Computational Genomics Genome Regulation Mitochondrial Biology Research Themes Nuclear Genome Regulation and 3D Genome Architecture Mitochondrial Genetics and Biology Selected Research"
+    "text": "Li Tang Computational Genomics Genome Regulation Mitochondrial Biology Yale University Central South University Nuclear Genome Regulation and 3D Genome Architecture Mitochondrial Genetics and Biology"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publication",
     "section": "",
-    "text": "Research Nuclear Genome Regulation and 3D Genome Architecture Mitochondrial Genetics and Biology Connecting Nuclear and Mitochondrial Genome Biology"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Li Tang is a bioinformatics postdoctoral researcher working in computational genomics."
+    "text": "Verified publication details are not currently stored in this repository. Google Scholar https://scholar.google.com/citations?user=3zkQ6d0AAAAJ"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "For collaboration or research inquiries, please use the verified profile below. GitHub: https://github.com/LiTang1013 Email: Coming soon Google Scholar: Coming soon ORCID: Coming soon"
+    "text": "GitHub https://github.com/LiTang1013 Google Scholar https://scholar.google.com/citations?user=3zkQ6d0AAAAJ Email Coming soon ORCID Coming soon"
   }
 ]

@@ -6,31 +6,42 @@ format:
     toc: false
 ---
 
-::: {.hero .academic-hero}
-::: {.hero-content}
+::: {.profile-hero}
+::: {.profile-copy}
 # Li Tang
 
 ## Computational Genomics · Genome Regulation · Mitochondrial Biology
 
-::: {.identity-line}
-Bioinformatics postdoctoral researcher<br>
-Genome Regulation · 3D Genome · Mitochondrial Genetics
-:::
-
 My research investigates how genetic variation and genome organization shape cellular function and human disease. I develop computational and AI-driven approaches to uncover regulatory mechanisms across the nuclear and mitochondrial genomes.
 
-::: {.button-row}
-[Research](research.qmd){.custom-button}
-[CV](cv.qmd){.custom-button .secondary-button}
+::: {.profile-links}
+[Google Scholar](https://scholar.google.com/citations?user=3zkQ6d0AAAAJ){.custom-button}
+[Publication](publication.qmd){.custom-button .secondary-button}
 [Contact](contact.qmd){.custom-button .secondary-button}
 :::
 :::
+
+::: {.profile-photo-card}
+::: {.photo-placeholder aria-label="Photo placeholder"}
+Photo
+:::
 :::
 
-## Research Themes
+::: {.education-card}
+### EDUCATION/TRAINING
+
+**Yale University**<br>
+*Postdoctoral Associate (Lake Lab, Department of Genetics)*
+
+**Central South University**<br>
+*Ph.D. in Computer Science and Engineering*<br>
+*M.S. in Computer Science and Engineering*<br>
+*B.S. in Internet of Things Engineering*
+:::
+:::
 
 ::: {.theme-grid}
-::: {.theme-card}
+::: {.theme-card .theme-nuclear}
 ### Nuclear Genome Regulation and 3D Genome Architecture
 
 I study how genome sequence, chromatin organization, and long-range regulatory interactions control gene expression and cellular identity. My work uses machine learning, deep learning, and computational genomics to model three-dimensional genome organization and investigate its roles in development and disease.
@@ -44,7 +55,7 @@ I study how genome sequence, chromatin organization, and long-range regulatory i
 :::
 :::
 
-::: {.theme-card}
+::: {.theme-card .theme-mito}
 ### Mitochondrial Genetics and Biology
 
 I investigate how mitochondrial DNA variation shapes mitochondrial function, evolution, and human disease. My work combines artificial intelligence, population-scale genomics, and evolutionary analysis to improve mitochondrial variant interpretation and uncover biologically meaningful patterns of mtDNA variation.
@@ -58,13 +69,3 @@ I investigate how mitochondrial DNA variation shapes mitochondrial function, evo
 :::
 :::
 :::
-
-::: {.research-vision}
-### Long-term Research Vision
-
-My long-term goal is to understand how nuclear genome regulation and mitochondrial genetic variation jointly shape cellular function and disease, and to develop computational frameworks that connect these complementary layers of genome biology.
-:::
-
-## Selected Research
-
-Current verified repository content documents research interests in mitochondrial genomics, variant interpretation, NUMTs, heteroplasmy, comparative genomics, and large-scale WGS/WES analysis, but does not include complete verified publication records. See the [Research](research.qmd) page for the current research profile.

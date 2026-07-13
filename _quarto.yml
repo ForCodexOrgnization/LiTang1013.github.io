@@ -3,29 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "Li Tang | Computational Genomics"
+  title: "Li Tang"
   navbar:
-    title: "Li Tang | Computational Genomics"
+    title: "Li Tang"
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
-      - href: cv.qmd
-        text: CV
-      - href: about.qmd
-        text: About
+      - href: publication.qmd
+        text: Publication
       - href: contact.qmd
         text: Contact
-      - text: More
-        menu:
-          - href: tutorials.qmd
-            text: Tutorials
-          - href: resources.qmd
-            text: Resources
-    right:
-      - icon: github
-        href: https://github.com/LiTang1013
 
   page-footer:
     left: "© 2026 Li Tang"
@@ -37,5 +24,5 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: false
     page-layout: full

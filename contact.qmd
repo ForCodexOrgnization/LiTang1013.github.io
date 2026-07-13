@@ -2,11 +2,11 @@
 title: "Contact"
 ---
 
-For collaboration or research inquiries, please use the verified profile below.
+For collaboration or research inquiries, please use the verified profiles below.
 
 - GitHub: <https://github.com/LiTang1013>
+- Google Scholar: <https://scholar.google.com/citations?user=3zkQ6d0AAAAJ>
 - Email: Coming soon
-- Google Scholar: Coming soon
 - ORCID: Coming soon
 
-<!-- TODO: Add verified email, Google Scholar, ORCID, and other professional profile links when available. -->
+<!-- TODO: Add verified email, ORCID, and other professional profile links when available. -->
