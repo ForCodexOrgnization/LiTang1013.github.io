@@ -2,10 +2,11 @@
 title: "Contact"
 ---
 
-For collaboration, training, or bioinformatics content inquiries, please contact me.
+For collaboration or research inquiries, please use the verified profile below.
 
-- GitHub: https://github.com/LiTang1013
-- YouTube: Coming soon
+- GitHub: <https://github.com/LiTang1013>
+- Email: Coming soon
 - Google Scholar: Coming soon
 - ORCID: Coming soon
-- Email: Coming soon
+
+<!-- TODO: Add verified email, Google Scholar, ORCID, and other professional profile links when available. -->

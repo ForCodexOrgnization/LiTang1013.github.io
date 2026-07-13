@@ -2,4 +2,6 @@
 title: "About"
 ---
 
-About this site
+Li Tang is a bioinformatics postdoctoral researcher working in computational genomics, with research interests spanning mitochondrial genomics, variant interpretation, sequencing-data analysis, nuclear genome regulation, and 3D genome architecture.
+
+<!-- TODO: Add verified affiliation, biography details, headshot, and external profile links when available. -->

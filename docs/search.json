@@ -42,90 +42,6 @@
     "text": "Research Interests\n\nMitochondrial DNA variation\nVariant interpretation\nNUMTs and heteroplasmy artifacts\nPrimate comparative genomics\nLarge-scale WGS/WES analysis"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Turning biological questions into clear bioinformatics workflows.\n\nResearch Tutorials Contact"
-  },
-  {
-    "objectID": "index.html#bioinformatics-researcher-educator",
-    "href": "index.html#bioinformatics-researcher-educator",
-    "title": "Home",
-    "section": "",
-    "text": "Turning biological questions into clear bioinformatics workflows.\n\nResearch Tutorials Contact"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Home",
-    "section": "About Me",
-    "text": "About Me\nI am a bioinformatics postdoctoral researcher working on mitochondrial genomics, variant interpretation, and sequencing data analysis.\nI create practical bioinformatics content for experimental scientists, PhD students, and postdocs who want to better understand data analysis."
-  },
-  {
-    "objectID": "index.html#featured-video",
-    "href": "index.html#featured-video",
-    "title": "Home",
-    "section": "Featured Video",
-    "text": "Featured Video\n\n\n\n\nWatch on YouTube"
-  },
-  {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Home",
-    "section": "What I Do",
-    "text": "What I Do\n\n\nResearch\nMitochondrial genomics, variant interpretation, NUMTs, heteroplasmy, and comparative genomics.\n\n\nTutorials\nPractical bioinformatics tutorials for experimental scientists, PhD students, and postdocs.\n\n\nResources\nChecklists, templates, code snippets, and workflow notes for sequencing data analysis."
-  },
-  {
-    "objectID": "index.html#research-focus",
-    "href": "index.html#research-focus",
-    "title": "Home",
-    "section": "Research Focus",
-    "text": "Research Focus\n\nMitochondrial DNA variation\nPrimate comparative genomics\nNUMTs and heteroplasmy artifacts\nLarge-scale WGS/WES analysis\nVariant interpretation"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "I study mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, and comparative genomics."
-  },
-  {
-    "objectID": "research.html#mitochondrial-genomics",
-    "href": "research.html#mitochondrial-genomics",
-    "title": "Research",
-    "section": "",
-    "text": "I study mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, and comparative genomics."
-  },
-  {
-    "objectID": "research.html#large-scale-sequencing-analysis",
-    "href": "research.html#large-scale-sequencing-analysis",
-    "title": "Research",
-    "section": "Large-scale Sequencing Analysis",
-    "text": "Large-scale Sequencing Analysis\nI work with WGS/WES-scale datasets, variant calling, annotation, and burden analysis."
-  },
-  {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
-    "title": "Research",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nMitochondrial DNA variation\nVariant interpretation\nNUMTs and heteroplasmy artifacts\nPrimate comparative genomics\nLarge-scale WGS/WES analysis"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "For collaboration, training, or bioinformatics content inquiries, please contact me.\n\nGitHub: https://github.com/LiTang1013\nYouTube: Coming soon\nGoogle Scholar: Coming soon\nORCID: Coming soon\nEmail: Coming soon"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV",
@@ -145,5 +61,33 @@
     "title": "CV",
     "section": "Selected Skills",
     "text": "Selected Skills\n\nR, Python, Bash\nGATK, bcftools, samtools\nWGS/WES analysis\nVariant calling and annotation\nHPC / Slurm\nMitochondrial genomics"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Li Tang Computational Genomics Genome Regulation Mitochondrial Biology Research Themes Nuclear Genome Regulation and 3D Genome Architecture Mitochondrial Genetics and Biology Selected Research"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research Nuclear Genome Regulation and 3D Genome Architecture Mitochondrial Genetics and Biology Connecting Nuclear and Mitochondrial Genome Biology"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Li Tang is a bioinformatics postdoctoral researcher working in computational genomics."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "For collaboration or research inquiries, please use the verified profile below. GitHub: https://github.com/LiTang1013 Email: Coming soon Google Scholar: Coming soon ORCID: Coming soon"
   }
 ]

@@ -1,0 +1,12 @@
+# Quarto transient files
+.quarto/
+*_cache/
+*_files/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

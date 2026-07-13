@@ -1,67 +1,70 @@
 ---
 title: "Home"
+title-block-banner: false
+format:
+  html:
+    toc: false
 ---
 
-::: {.hero}
+::: {.hero .academic-hero}
+::: {.hero-content}
 # Li Tang
 
-## Bioinformatics Researcher & Educator
+## Computational Genomics · Genome Regulation · Mitochondrial Biology
 
-Turning biological questions into clear bioinformatics workflows.
+::: {.identity-line}
+Bioinformatics postdoctoral researcher<br>
+Genome Regulation · 3D Genome · Mitochondrial Genetics
+:::
+
+My research investigates how genetic variation and genome organization shape cellular function and human disease. I develop computational and AI-driven approaches to uncover regulatory mechanisms across the nuclear and mitochondrial genomes.
 
 ::: {.button-row}
 [Research](research.qmd){.custom-button}
-[Tutorials](tutorials.qmd){.custom-button}
-[Contact](contact.qmd){.custom-button}
+[CV](cv.qmd){.custom-button .secondary-button}
+[Contact](contact.qmd){.custom-button .secondary-button}
+:::
+:::
+:::
+
+## Research Themes
+
+::: {.theme-grid}
+::: {.theme-card}
+### Nuclear Genome Regulation and 3D Genome Architecture
+
+I study how genome sequence, chromatin organization, and long-range regulatory interactions control gene expression and cellular identity. My work uses machine learning, deep learning, and computational genomics to model three-dimensional genome organization and investigate its roles in development and disease.
+
+::: {.keyword-list}
+- 3D genome organization
+- Chromatin architecture
+- Gene regulation
+- Deep learning
+- Functional genomics
 :::
 :::
 
-## About Me
+::: {.theme-card}
+### Mitochondrial Genetics and Biology
 
-I am a bioinformatics postdoctoral researcher working on mitochondrial genomics, variant interpretation, and sequencing data analysis.
+I investigate how mitochondrial DNA variation shapes mitochondrial function, evolution, and human disease. My work combines artificial intelligence, population-scale genomics, and evolutionary analysis to improve mitochondrial variant interpretation and uncover biologically meaningful patterns of mtDNA variation.
 
-I create practical bioinformatics content for experimental scientists, PhD students, and postdocs who want to better understand data analysis.
-
-## Featured Video
-
-::: {.video-wrapper}
-<iframe src="https://www.youtube.com/embed/VIDEO_ID"
-title="Featured YouTube video"
-frameborder="0"
-allowfullscreen>
-</iframe>
+::: {.keyword-list}
+- mtDNA variant interpretation
+- Heteroplasmy
+- Population genomics
+- Mitochondrial evolution
+- Human disease
+:::
+:::
 :::
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID){.custom-button}
+::: {.research-vision}
+### Long-term Research Vision
 
-## What I Do
-
-::: {.card-grid}
-
-::: {.custom-card}
-### Research
-
-Mitochondrial genomics, variant interpretation, NUMTs, heteroplasmy, and comparative genomics.
+My long-term goal is to understand how nuclear genome regulation and mitochondrial genetic variation jointly shape cellular function and disease, and to develop computational frameworks that connect these complementary layers of genome biology.
 :::
 
-::: {.custom-card}
-### Tutorials
+## Selected Research
 
-Practical bioinformatics tutorials for experimental scientists, PhD students, and postdocs.
-:::
-
-::: {.custom-card}
-### Resources
-
-Checklists, templates, code snippets, and workflow notes for sequencing data analysis.
-:::
-
-:::
-
-## Research Focus
-
-- Mitochondrial DNA variation
-- Primate comparative genomics
-- NUMTs and heteroplasmy artifacts
-- Large-scale WGS/WES analysis
-- Variant interpretation
+Current verified repository content documents research interests in mitochondrial genomics, variant interpretation, NUMTs, heteroplasmy, comparative genomics, and large-scale WGS/WES analysis, but does not include complete verified publication records. See the [Research](research.qmd) page for the current research profile.
