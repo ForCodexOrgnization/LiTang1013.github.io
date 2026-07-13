@@ -2,18 +2,57 @@
 title: "Research"
 ---
 
-## Mitochondrial Genomics
+My research centers on computational genomics approaches for understanding how genome regulation, genetic variation, and genome organization influence cellular function and human disease. I develop and apply AI, deep-learning, and large-scale genomic methods across two complementary areas: nuclear genome regulation and 3D genome architecture, and mitochondrial genetics and biology.
 
-I study mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, and comparative genomics.
+## Nuclear Genome Regulation and 3D Genome Architecture
 
-## Large-scale Sequencing Analysis
+### Scientific questions
 
-I work with WGS/WES-scale datasets, variant calling, annotation, and burden analysis.
+- How do genome sequence and chromatin architecture shape gene regulation?
+- How do long-range regulatory interactions contribute to cellular identity, development, and disease?
+- How can computational models connect three-dimensional genome organization with functional genomic readouts?
 
-## Research Interests
+### Computational and AI approaches
 
-- Mitochondrial DNA variation
-- Variant interpretation
-- NUMTs and heteroplasmy artifacts
-- Primate comparative genomics
-- Large-scale WGS/WES analysis
+This research theme emphasizes machine learning, deep learning, and integrative computational genomics for modeling chromatin folding, regulatory interactions, and gene-expression control. Future analyses may integrate sequence features, chromatin accessibility, histone modifications, and chromosome-conformation data when verified datasets are available.
+
+### Representative projects
+
+- Modeling three-dimensional genome organization and chromatin architecture.
+- Investigating links between long-range regulatory interactions and gene-expression programs.
+- Developing interpretable computational approaches for regulatory genomics.
+
+<!-- TODO: Add verified project names, collaborators, datasets, publications, and external links when available. -->
+
+### Future directions
+
+Future work will develop deep-learning and AI-driven frameworks that connect genome sequence, chromatin organization, and regulatory function, with careful attention to interpretability and disease relevance.
+
+## Mitochondrial Genetics and Biology
+
+### Scientific questions
+
+- How does mitochondrial DNA variation influence mitochondrial function, evolution, and human disease?
+- How can heteroplasmy and NUMT-related artifacts be distinguished in large-scale sequencing data?
+- How can population-scale genomics improve mitochondrial variant interpretation?
+
+### Computational and AI approaches
+
+This research theme combines artificial intelligence, population-scale genomics, evolutionary analysis, and sequencing-data workflows to study mtDNA variation. Existing repository content identifies mitochondrial DNA variation, variant interpretation, NUMTs, heteroplasmy, comparative genomics, and WGS/WES analysis as current areas of focus.
+
+### Representative projects
+
+- Characterizing mitochondrial DNA variation and heteroplasmy in sequencing data.
+- Improving interpretation of mitochondrial variants with computational and AI-based approaches.
+- Studying NUMTs and other artifacts that affect mitochondrial variant analysis.
+- Applying comparative and population genomics to mitochondrial evolution and disease relevance.
+
+<!-- TODO: Add verified publication citations, DOI/PubMed links, datasets, and project repositories when available. -->
+
+### Future directions
+
+Future work will refine computational frameworks for mitochondrial variant interpretation, integrate population and evolutionary context, and improve robust analysis of mtDNA variation in human genomic datasets.
+
+## Connecting Nuclear and Mitochondrial Genome Biology
+
+Future research may investigate how nuclear genome regulation and mitochondrial genetic variation jointly influence cellular phenotypes. This direction is framed as a forward-looking research goal: the aim is to build computational frameworks that connect complementary layers of genome biology without overstating experimentally established links.

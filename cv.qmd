@@ -4,9 +4,9 @@ title: "CV"
 
 ## CV
 
-You can download my CV here:
+A downloadable CV is not currently available in this repository.
 
-[Download CV](files/Li_Tang_CV.pdf)
+<!-- TODO: Add a verified CV PDF under files/ and restore the download link when available. -->
 
 ## Selected Skills
 
