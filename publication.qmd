@@ -1,0 +1,11 @@
+---
+title: "Publication"
+---
+
+Verified publication details are not currently stored in this repository.
+
+For the current verified publication profile, please see Li Tang's Google Scholar page:
+
+[Google Scholar](https://scholar.google.com/citations?user=3zkQ6d0AAAAJ){.custom-button}
+
+<!-- TODO: Add verified publication citations, years, venues, DOI/PubMed links, and author lists when available. -->

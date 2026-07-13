@@ -1,67 +1,71 @@
 ---
 title: "Home"
+title-block-banner: false
+format:
+  html:
+    toc: false
 ---
 
-::: {.hero}
+::: {.profile-hero}
+::: {.profile-copy}
 # Li Tang
 
-## Bioinformatics Researcher & Educator
+## Computational Genomics · Genome Regulation · Mitochondrial Biology
 
-Turning biological questions into clear bioinformatics workflows.
+My research investigates how genetic variation and genome organization shape cellular function and human disease. I develop computational and AI-driven approaches to uncover regulatory mechanisms across the nuclear and mitochondrial genomes.
 
-::: {.button-row}
-[Research](research.qmd){.custom-button}
-[Tutorials](tutorials.qmd){.custom-button}
-[Contact](contact.qmd){.custom-button}
+::: {.profile-links}
+[Google Scholar](https://scholar.google.com/citations?user=3zkQ6d0AAAAJ){.custom-button}
+[Publication](publication.qmd){.custom-button .secondary-button}
+[Contact](contact.qmd){.custom-button .secondary-button}
 :::
 :::
 
-## About Me
-
-I am a bioinformatics postdoctoral researcher working on mitochondrial genomics, variant interpretation, and sequencing data analysis.
-
-I create practical bioinformatics content for experimental scientists, PhD students, and postdocs who want to better understand data analysis.
-
-## Featured Video
-
-::: {.video-wrapper}
-<iframe src="https://www.youtube.com/embed/VIDEO_ID"
-title="Featured YouTube video"
-frameborder="0"
-allowfullscreen>
-</iframe>
+::: {.profile-photo-card}
+::: {.photo-placeholder aria-label="Photo placeholder"}
+Photo
+:::
 :::
 
-[Watch on YouTube](https://www.youtube.com/watch?v=VIDEO_ID){.custom-button}
+::: {.education-card}
+### EDUCATION/TRAINING
 
-## What I Do
+**Yale University**<br>
+*Postdoctoral Associate (Lake Lab, Department of Genetics)*
 
-::: {.card-grid}
-
-::: {.custom-card}
-### Research
-
-Mitochondrial genomics, variant interpretation, NUMTs, heteroplasmy, and comparative genomics.
+**Central South University**<br>
+*Ph.D. in Computer Science and Engineering*<br>
+*M.S. in Computer Science and Engineering*<br>
+*B.S. in Internet of Things Engineering*
+:::
 :::
 
-::: {.custom-card}
-### Tutorials
+::: {.theme-grid}
+::: {.theme-card .theme-nuclear}
+### Nuclear Genome Regulation and 3D Genome Architecture
 
-Practical bioinformatics tutorials for experimental scientists, PhD students, and postdocs.
+I study how genome sequence, chromatin organization, and long-range regulatory interactions control gene expression and cellular identity. My work uses machine learning, deep learning, and computational genomics to model three-dimensional genome organization and investigate its roles in development and disease.
+
+::: {.keyword-list}
+- 3D genome organization
+- Chromatin architecture
+- Gene regulation
+- Deep learning
+- Functional genomics
+:::
 :::
 
-::: {.custom-card}
-### Resources
+::: {.theme-card .theme-mito}
+### Mitochondrial Genetics and Biology
 
-Checklists, templates, code snippets, and workflow notes for sequencing data analysis.
+I investigate how mitochondrial DNA variation shapes mitochondrial function, evolution, and human disease. My work combines artificial intelligence, population-scale genomics, and evolutionary analysis to improve mitochondrial variant interpretation and uncover biologically meaningful patterns of mtDNA variation.
+
+::: {.keyword-list}
+- mtDNA variant interpretation
+- Heteroplasmy
+- Population genomics
+- Mitochondrial evolution
+- Human disease
 :::
-
 :::
-
-## Research Focus
-
-- Mitochondrial DNA variation
-- Primate comparative genomics
-- NUMTs and heteroplasmy artifacts
-- Large-scale WGS/WES analysis
-- Variant interpretation
+:::
