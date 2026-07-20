@@ -126,7 +126,7 @@ a:focus-visible,.custom-button:focus-visible,.nav-link:focus-visible,.dropdown-i
 .compact-intro { margin-top:clamp(1rem,2vw,1.5rem); padding-top:clamp(1rem,2vw,1.5rem); }
 .themes-section { margin-right:-48px; margin-left:-48px; padding:clamp(2rem,4vw,3rem) 48px; }
 .themes-section .section-heading { margin-bottom:1.5rem; }
-.research-directions { display:grid; grid-template-columns:minmax(0,1fr) minmax(180px,.62fr) minmax(0,1fr); gap:clamp(1.25rem,3vw,2.75rem); align-items:center; }
+.research-directions { display:grid; grid-template-columns:minmax(0,1fr) minmax(180px,0.62fr) minmax(0,1fr); gap:clamp(1.25rem,3vw,2.75rem); align-items:center; }
 .research-directions .research-panel { display:flex; flex-direction:column; gap:1rem; padding:0; border:0; border-radius:0; background:transparent; }
 .research-directions .research-panel + .research-panel { margin-top:0; }
 .research-directions .research-visual-placeholder { aspect-ratio:2/1; border:0; border-radius:16px; }
