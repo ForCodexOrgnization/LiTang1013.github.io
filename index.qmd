@@ -1,11 +1,12 @@
 ---
-title: "Home"
+title: false
 title-block-banner: false
 format:
   html:
     toc: false
 ---
 
+```{=html}
 <div class="homepage">
 
 <!-- TODO: Replace with final portrait. -->
@@ -130,3 +131,4 @@ format:
 </section>
 
 </div>
+```
