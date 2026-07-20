@@ -33,12 +33,7 @@ li {
     "copy photo"
     "education education";
   gap: 28px 40px;
-  padding: clamp(30px, 5vw, 56px);
   margin: 22px 0 42px;
-  background: linear-gradient(135deg, #f8fcfd 0%, #e9f4f7 100%);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  box-shadow: 0 14px 32px rgba(18, 47, 73, 0.08);
 }
 
 .profile-copy {
@@ -68,7 +63,8 @@ li {
 .profile-copy p {
   margin-bottom: 0;
   color: #354552;
-  font-size: 1rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
 }
 
 .profile-photo-card {
@@ -278,11 +274,6 @@ img {
 }
 
 @media (max-width: 560px) {
-  .profile-hero {
-    padding: 28px 22px;
-    border-radius: 14px;
-  }
-
   .education-card {
     padding-right: 0;
     padding-left: 0;
