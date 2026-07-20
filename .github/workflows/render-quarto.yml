@@ -1,0 +1,57 @@
+name: Render Quarto site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**.qmd"
+      - "_quarto.yml"
+      - "_brand.yml"
+      - "styles.css"
+      - "**.css"
+      - "**.scss"
+      - "**.sass"
+      - "**.bib"
+      - "**.csl"
+      - "assets/**"
+      - "images/**"
+      - ".github/workflows/render-quarto.yml"
+  workflow_dispatch:
+
+# The workflow only needs permission to commit refreshed static output.
+permissions:
+  contents: write
+
+jobs:
+  render:
+    # The generated commit includes [skip ci], and this guard is a second
+    # protection against a render-commit loop.
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render the website
+        run: quarto render
+
+      - name: Commit rendered website output
+        run: |
+          git add -A docs/
+
+          if git diff --cached --quiet; then
+            echo "Rendered docs/ output is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Render Quarto site [skip ci]"
+          git push origin HEAD:main
