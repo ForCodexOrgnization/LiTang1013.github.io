@@ -122,14 +122,20 @@ a:focus-visible,.custom-button:focus-visible,.nav-link:focus-visible,.dropdown-i
 .themes-section,.connection-section,.journey-section,.projects-section,.beyond-section { margin-right:-14px; margin-left:-14px; padding-right:14px; padding-left:14px; }
 }
 
-/* Compact two-screen homepage layout. */
+/* Compact three-part research layout. */
 .compact-intro { margin-top:clamp(1rem,2vw,1.5rem); padding-top:clamp(1rem,2vw,1.5rem); }
-.themes-section { padding-top:clamp(3rem,6vw,5rem); padding-bottom:clamp(3rem,6vw,5rem); }
-.research-directions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.25rem; }
-.research-directions .research-panel { grid-template-columns:1fr; gap:1.25rem; padding:clamp(1.1rem,2vw,1.6rem); }
+.themes-section { margin-right:-48px; margin-left:-48px; padding:clamp(2rem,4vw,3rem) 48px; }
+.themes-section .section-heading { margin-bottom:1.5rem; }
+.research-directions { display:grid; grid-template-columns:minmax(0,1fr) minmax(180px,.62fr) minmax(0,1fr); gap:clamp(1.25rem,3vw,2.75rem); align-items:center; }
+.research-directions .research-panel { display:flex; flex-direction:column; gap:1rem; padding:0; border:0; border-radius:0; background:transparent; }
 .research-directions .research-panel + .research-panel { margin-top:0; }
-.research-directions .research-visual-placeholder { aspect-ratio:16/9; }
-.research-connection { display:flex; flex-wrap:wrap; gap:.55rem 1rem; align-items:center; justify-content:center; margin:1.25rem auto 0; padding:1rem 1.25rem; border:1px solid var(--border); border-radius:14px; background:var(--mist); color:var(--forest-deep); font-size:.9rem; text-align:center; }
+.research-directions .research-visual-placeholder { aspect-ratio:2/1; border:0; border-radius:16px; }
+.mitochondrial-panel .research-visual-placeholder { order:-1; }
+.research-directions .research-copy h3 { font-size:clamp(1.45rem,2vw,2rem); }
+.research-directions .research-copy p { margin-bottom:.65rem; font-size:.92rem; line-height:1.55; }
+.research-connection { display:flex; flex-direction:column; gap:.75rem; align-items:center; justify-content:center; padding:1rem; color:var(--forest-deep); font-size:.88rem; font-weight:650; line-height:1.35; text-align:center; }
+.research-connection span { max-width:15ch; }
 .research-connection strong { color:var(--clay); }
-.connection-arrow { color:var(--clay); font-size:1.25rem; font-weight:700; }
-@media (max-width:800px) { .research-directions { grid-template-columns:1fr; } }
+.connection-arrow { color:var(--clay); font-size:1.4rem; font-weight:700; }
+@media (max-width:800px) { .themes-section { margin-right:-18px; margin-left:-18px; padding-right:18px; padding-left:18px; } .research-directions { grid-template-columns:1fr; } .research-connection { flex-direction:row; flex-wrap:wrap; } .research-connection span { max-width:none; } }
+@media (max-width:520px) { .themes-section { margin-right:-14px; margin-left:-14px; padding-right:14px; padding-left:14px; } }
