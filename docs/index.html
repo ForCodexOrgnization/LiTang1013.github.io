@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – Li Tang</title>
+<title>Li Tang</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -158,20 +158,19 @@ ul.task-list li input[type="checkbox"] {
       <p class="hero-introduction">Short personal research introduction placeholder. This paragraph will later explain the scientific questions, computational approaches, and long-term vision.</p>
       <div class="button-row" aria-label="Primary site links">
         <a class="custom-button" href="research.html">Research</a>
-        <a class="custom-button secondary-button" href="#selected-work">Publications <span class="visually-hidden">(placeholder section)</span></a>
         <a class="custom-button secondary-button" href="cv.html">CV</a>
         <a class="custom-button secondary-button" href="contact.html">Contact</a>
       </div>
     </div>
   </div>
-</section>
 
-<section class="home-section intro-section" aria-labelledby="about-work-title">
-  <div class="narrow-copy">
-    <p class="eyebrow">A personal starting point</p>
-    <h2 id="about-work-title">A little about my work</h2>
-    <p>Personal introduction placeholder: a short paragraph about curiosity, interdisciplinary research, and the motivation to connect biological questions with computational methods.</p>
-    <p class="pull-quote">“Research philosophy quote placeholder”</p>
+  <div class="intro-section compact-intro" aria-labelledby="about-work-title">
+    <div class="narrow-copy">
+      <p class="eyebrow">A personal starting point</p>
+      <h2 id="about-work-title">A little about my work</h2>
+      <p>Personal introduction placeholder: a short paragraph about curiosity, interdisciplinary research, and the motivation to connect biological questions with computational methods.</p>
+      <p class="pull-quote">“Research philosophy quote placeholder”</p>
+    </div>
   </div>
 </section>
 
@@ -180,89 +179,41 @@ ul.task-list li input[type="checkbox"] {
     <p class="eyebrow">Two complementary programs</p>
     <h2 id="themes-title">Research Themes</h2>
   </div>
-  <article class="research-panel nuclear-panel">
-    <!-- TODO: Replace with final 3D genome illustration. -->
-    <div class="image-placeholder research-visual-placeholder genome-visual" role="img" aria-label="3D genome and chromatin architecture illustration placeholder">
-      <span>3D genome / chromatin architecture illustration placeholder</span>
-      <i class="genome-orbit orbit-one" aria-hidden="true"></i><i class="genome-orbit orbit-two" aria-hidden="true"></i><i class="genome-node node-one" aria-hidden="true"></i><i class="genome-node node-two" aria-hidden="true"></i>
-    </div>
-    <div class="research-copy">
-      <p class="theme-number">01</p>
-      <h3>Nuclear Genome Regulation</h3>
-      <p class="theme-subtitle">3D genome architecture · chromatin organization · gene regulation · AI</p>
-      <p><strong>Scientific question placeholder</strong></p>
-      <p>Research description placeholder: explain how genome organization and regulatory interactions shape gene expression, and how computational or AI methods are used to study these processes.</p>
-      <a class="text-link" href="research.html#nuclear-genome-regulation-and-3d-genome-architecture">Explore this research <span aria-hidden="true">→</span></a>
-    </div>
-  </article>
-  <article class="research-panel mitochondrial-panel reverse-panel">
-    <div class="research-copy">
-      <p class="theme-number">02</p>
-      <h3>Mitochondrial Genetics</h3>
-      <p class="theme-subtitle">mtDNA variation · heteroplasmy · population genomics · evolution</p>
-      <p><strong>Scientific question placeholder</strong></p>
-      <p>Research description placeholder: explain how mitochondrial genetic variation affects function, evolution, and disease, and how AI and population genomics may improve variant interpretation.</p>
-      <a class="text-link" href="research.html#mitochondrial-genetics-and-biology">Explore this research <span aria-hidden="true">→</span></a>
-    </div>
-    <!-- TODO: Replace with final mitochondrial illustration. -->
-    <div class="image-placeholder research-visual-placeholder mitochondria-visual" role="img" aria-label="Mitochondrion and mitochondrial DNA illustration placeholder">
-      <span>Mitochondrion / mtDNA illustration placeholder</span>
-      <i class="mito-body" aria-hidden="true"></i><i class="mito-fold fold-one" aria-hidden="true"></i><i class="mito-fold fold-two" aria-hidden="true"></i><i class="mtdna-ring" aria-hidden="true"></i>
-    </div>
-  </article>
-</section>
-
-<section class="home-section connection-section" aria-labelledby="connection-title">
-  <div class="section-heading centered-heading"><p class="eyebrow">A future integrative direction</p><h2 id="connection-title">Connecting the Nuclear and Mitochondrial Genomes</h2></div>
-  <div class="connection-diagram" role="img" aria-label="Conceptual diagram connecting nuclear genome regulation and mitochondrial genetics through AI and computational genomics to cellular function and human disease">
-    <div class="connection-stream"><div class="connection-node">Nuclear Genome Regulation</div><span class="diagram-arrow" aria-hidden="true">↓</span><div class="connection-node small-node">Gene regulation and cellular state</div></div>
-    <div class="connection-stream"><div class="connection-node warm-node">Mitochondrial Genetics</div><span class="diagram-arrow" aria-hidden="true">↓</span><div class="connection-node small-node">Energy metabolism and mitochondrial function</div></div>
-    <div class="method-layer">AI and Computational Genomics</div>
-    <div class="diagram-arrow merge-arrow" aria-hidden="true">↓</div>
-    <div class="connection-node outcome-node">Cellular Function and Human Disease</div>
+  <div class="research-directions">
+    <article class="research-panel nuclear-panel">
+      <!-- TODO: Replace with final 3D genome illustration. -->
+      <div class="image-placeholder research-visual-placeholder genome-visual" role="img" aria-label="3D genome and chromatin architecture illustration placeholder">
+        <span>3D genome / chromatin architecture illustration placeholder</span>
+        <i class="genome-orbit orbit-one" aria-hidden="true"></i><i class="genome-orbit orbit-two" aria-hidden="true"></i><i class="genome-node node-one" aria-hidden="true"></i><i class="genome-node node-two" aria-hidden="true"></i>
+      </div>
+      <div class="research-copy">
+        <p class="theme-number">01</p>
+        <h3>Nuclear Genome Regulation</h3>
+        <p class="theme-subtitle">3D genome architecture · chromatin organization · gene regulation · AI</p>
+        <p><strong>Scientific question placeholder</strong></p>
+        <p>Research description placeholder: explain how genome organization and regulatory interactions shape gene expression, and how computational or AI methods are used to study these processes.</p>
+        <a class="text-link" href="research.html#nuclear-genome-regulation-and-3d-genome-architecture">Explore this research <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+    <article class="research-panel mitochondrial-panel">
+      <div class="research-copy">
+        <p class="theme-number">02</p>
+        <h3>Mitochondrial Genetics</h3>
+        <p class="theme-subtitle">mtDNA variation · heteroplasmy · population genomics · evolution</p>
+        <p><strong>Scientific question placeholder</strong></p>
+        <p>Research description placeholder: explain how mitochondrial genetic variation affects function, evolution, and disease, and how AI and population genomics may improve variant interpretation.</p>
+        <a class="text-link" href="research.html#mitochondrial-genetics-and-biology">Explore this research <span aria-hidden="true">→</span></a>
+      </div>
+      <!-- TODO: Replace with final mitochondrial illustration. -->
+      <div class="image-placeholder research-visual-placeholder mitochondria-visual" role="img" aria-label="Mitochondrion and mitochondrial DNA illustration placeholder">
+        <span>Mitochondrion / mtDNA illustration placeholder</span>
+        <i class="mito-body" aria-hidden="true"></i><i class="mito-fold fold-one" aria-hidden="true"></i><i class="mito-fold fold-two" aria-hidden="true"></i><i class="mtdna-ring" aria-hidden="true"></i>
+      </div>
+    </article>
   </div>
-  <p class="vision-note">Long-term research vision placeholder</p>
-</section>
-
-<section class="home-section journey-section" aria-labelledby="journey-title">
-  <div class="section-heading"><p class="eyebrow">An evolving path</p><h2 id="journey-title">Research Journey</h2></div>
-  <ol class="journey-timeline">
-    <li><span class="journey-marker">1</span><div><h3>Master’s training</h3><p>Genome assembly / computational genomics placeholder</p></div></li>
-    <li><span class="journey-marker">2</span><div><h3>PhD research</h3><p>Deep learning and 3D genome placeholder</p></div></li>
-    <li><span class="journey-marker">3</span><div><h3>Postdoctoral research</h3><p>Mitochondrial genetics and variant interpretation placeholder</p></div></li>
-    <li><span class="journey-marker">4</span><div><h3>Future research program</h3><p>Integrated AI-driven genome biology placeholder</p></div></li>
-  </ol>
-</section>
-
-<section class="home-section projects-section" aria-labelledby="projects-title">
-  <div class="section-heading"><p class="eyebrow">Work in progress</p><h2 id="projects-title">Featured Projects</h2></div>
-  <div class="project-grid">
-    <article class="project-card"><div class="image-placeholder project-image-placeholder" role="img" aria-label="HiC2FISH project visual placeholder"><span>HiC2FISH project visual placeholder</span></div><div class="project-card-copy"><h3>HiC2FISH</h3><p>One-sentence project description placeholder.</p><p class="project-status">Project status placeholder</p><a class="text-link" href="research.html">Learn more <span aria-hidden="true">→</span></a></div></article>
-    <article class="project-card"><div class="image-placeholder project-image-placeholder" role="img" aria-label="AI for Mitochondrial Variant Interpretation project visual placeholder"><span>AI for Mitochondrial Variant Interpretation visual placeholder</span></div><div class="project-card-copy"><h3>AI for Mitochondrial Variant Interpretation</h3><p>One-sentence project description placeholder.</p><p class="project-status">Project status placeholder</p><a class="text-link" href="research.html">Learn more <span aria-hidden="true">→</span></a></div></article>
-    <article class="project-card"><div class="image-placeholder project-image-placeholder" role="img" aria-label="Primate Mitochondrial Genome Analysis project visual placeholder"><span>Primate Mitochondrial Genome Analysis visual placeholder</span></div><div class="project-card-copy"><h3>Primate Mitochondrial Genome Analysis</h3><p>One-sentence project description placeholder.</p><p class="project-status">Project status placeholder</p><a class="text-link" href="research.html">Learn more <span aria-hidden="true">→</span></a></div></article>
+  <div class="research-connection" aria-label="The two research directions are connected through AI and computational genomics">
+    <span>Nuclear genome regulation</span><span class="connection-arrow" aria-hidden="true">↔</span><strong>AI and Computational Genomics</strong><span class="connection-arrow" aria-hidden="true">↔</span><span>Mitochondrial genetics</span>
   </div>
-</section>
-
-<!-- TODO: Replace with verified publication list. -->
-<section id="selected-work" class="home-section selected-work-section" aria-labelledby="selected-work-title">
-  <div class="section-heading"><p class="eyebrow">To be verified</p><h2 id="selected-work-title">Selected Work</h2></div>
-  <div class="selected-work-list">
-    <article><h3>Selected publication or project title placeholder</h3><p>Authors · Venue · Year</p><span>Verified link placeholder</span></article>
-    <article><h3>Selected publication or project title placeholder</h3><p>Authors · Venue · Year</p><span>Verified link placeholder</span></article>
-    <article><h3>Selected publication or project title placeholder</h3><p>Authors · Venue · Year</p><span>Verified link placeholder</span></article>
-  </div>
-</section>
-
-<section class="home-section beyond-section" aria-labelledby="beyond-title">
-  <div class="beyond-grid">
-    <div class="image-placeholder personal-photo-placeholder" role="img" aria-label="Yale campus, lab, or daily research life photo placeholder"><span>Yale campus / lab / daily research life photo placeholder</span></div>
-    <div class="beyond-copy"><p class="eyebrow">Beyond the research</p><h2 id="beyond-title">Beyond the Research</h2><p>Personal note placeholder: a short reflection on curiosity, collaboration, mentoring, and the enjoyment of translating complex biological questions into computational models.</p><p>Placeholder for what motivates the researcher, an approach to collaboration and mentoring, and interests outside research.</p><p class="closing-line">Personal closing sentence placeholder</p></div>
-  </div>
-</section>
-
-<section class="home-section connect-section" aria-labelledby="connect-title">
-  <div><p class="eyebrow">Start a conversation</p><h2 id="connect-title">Let’s Connect</h2><p>Collaboration, mentoring, and scientific conversation invitation placeholder.</p></div>
-  <div class="button-row"><a class="custom-button" href="contact.html">Contact</a><a class="custom-button secondary-button" href="https://github.com/LiTang1013">GitHub</a><a class="custom-button secondary-button" href="cv.html">CV</a></div>
 </section>
 
 </div>

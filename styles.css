@@ -121,3 +121,15 @@ a:focus-visible,.custom-button:focus-visible,.nav-link:focus-visible,.dropdown-i
 .journey-timeline li:not(:last-child)::after { top:39px; bottom:-1.4rem; left:19px; width:1px; height:auto; }
 .themes-section,.connection-section,.journey-section,.projects-section,.beyond-section { margin-right:-14px; margin-left:-14px; padding-right:14px; padding-left:14px; }
 }
+
+/* Compact two-screen homepage layout. */
+.compact-intro { margin-top:clamp(2.5rem,5vw,4rem); padding-top:clamp(2rem,4vw,3rem); }
+.themes-section { padding-top:clamp(3rem,6vw,5rem); padding-bottom:clamp(3rem,6vw,5rem); }
+.research-directions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.25rem; }
+.research-directions .research-panel { grid-template-columns:1fr; gap:1.25rem; padding:clamp(1.1rem,2vw,1.6rem); }
+.research-directions .research-panel + .research-panel { margin-top:0; }
+.research-directions .research-visual-placeholder { aspect-ratio:16/9; }
+.research-connection { display:flex; flex-wrap:wrap; gap:.55rem 1rem; align-items:center; justify-content:center; margin:1.25rem auto 0; padding:1rem 1.25rem; border:1px solid var(--border); border-radius:14px; background:var(--mist); color:var(--forest-deep); font-size:.9rem; text-align:center; }
+.research-connection strong { color:var(--clay); }
+.connection-arrow { color:var(--clay); font-size:1.25rem; font-weight:700; }
+@media (max-width:800px) { .research-directions { grid-template-columns:1fr; } }
