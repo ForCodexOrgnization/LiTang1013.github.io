@@ -20,10 +20,9 @@ format:
       <p class="position-placeholder">Postdoctoral Associate, Yale School of Medicine</p>
       <p class="research-identity">Nuclear–Mitochondrial Regulation <span aria-hidden="true">·</span> Mitochondrial Genetics <span aria-hidden="true">·</span> Interpretable Computational Genomics</p>
       <p class="hero-introduction">I develop interpretable computational and deep learning models to understand how nuclear genome regulation and mitochondrial genetic variation shape cellular function, clinically relevant phenotypes, and human disease.</p>
+      <p class="profile-links" aria-label="Academic profiles"><a href="https://scholar.google.com/citations?user=3zkQ6d0AAAAJ">Google Scholar</a><span aria-hidden="true">·</span><a href="https://github.com/LiTang1013">GitHub</a></p>
       <div class="button-row" aria-label="Primary site links">
         <a class="custom-button" href="research.html">Research</a>
-        <a class="custom-button secondary-button" href="cv.html">CV</a>
-        <a class="custom-button secondary-button" href="contact.html">Contact</a>
       </div>
     </div>
   </div>
