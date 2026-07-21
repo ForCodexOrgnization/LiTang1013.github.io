@@ -139,7 +139,13 @@ a:focus-visible,.custom-button:focus-visible,.nav-link:focus-visible,.dropdown-i
 }
 
 /* Compact three-part research layout. */
+.hero-section { padding-bottom:clamp(2rem,4vw,3rem); }
 .compact-intro { margin-top:clamp(1rem,2vw,1.5rem); padding-top:clamp(1rem,2vw,1.5rem); }
+.compact-intro .narrow-copy { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); column-gap:clamp(1.5rem,3vw,3rem); max-width:none; }
+.compact-intro .eyebrow,.compact-intro h2,.compact-intro .pull-quote { grid-column:1/-1; }
+.compact-intro h2 { margin-top:0; }
+.compact-intro .narrow-copy > p:not(.eyebrow):not(.pull-quote) { max-width:none; margin-top:1rem; }
+.compact-intro .pull-quote { max-width:72ch; margin-top:1.25rem; }
 .themes-section { margin-right:-48px; margin-left:-48px; padding:clamp(2rem,4vw,3rem) 48px; }
 .themes-section .section-heading { margin-bottom:1.5rem; }
 .research-directions { display:grid; grid-template-columns:minmax(0,1fr) minmax(180px,0.62fr) minmax(0,1fr); gap:clamp(1.25rem,3vw,2.75rem); align-items:center; }
@@ -153,7 +159,7 @@ a:focus-visible,.custom-button:focus-visible,.nav-link:focus-visible,.dropdown-i
 .research-connection span { max-width:15ch; }
 .research-connection strong { color:var(--mitochondrial-orange); }
 .connection-arrow { color:var(--mitochondrial-orange); font-size:1.4rem; font-weight:700; }
-@media (max-width:800px) { .themes-section { margin-right:-18px; margin-left:-18px; padding-right:18px; padding-left:18px; } .research-directions { grid-template-columns:1fr; } .research-connection { flex-direction:row; flex-wrap:wrap; } .research-connection span { max-width:none; } }
+@media (max-width:800px) { .compact-intro .narrow-copy { display:block; } .compact-intro .narrow-copy > p:not(.eyebrow):not(.pull-quote) { margin-top:1rem; } .themes-section { margin-right:-18px; margin-left:-18px; padding-right:18px; padding-left:18px; } .research-directions { grid-template-columns:1fr; } .research-connection { flex-direction:row; flex-wrap:wrap; } .research-connection span { max-width:none; } }
 @media (max-width:520px) { .themes-section { margin-right:-14px; margin-left:-14px; padding-right:14px; padding-left:14px; } }
 
 /* Quiet, laboratory-inspired site chrome. */
