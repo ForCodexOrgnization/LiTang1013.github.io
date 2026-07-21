@@ -28,6 +28,9 @@ p,li { max-width:72ch; color:var(--text); }
 .position-placeholder { margin:.8rem 0; color:var(--text); font-weight:600; }
 .research-identity { color:#365E68; font-weight:600; }
 .hero-introduction { margin-top:1.4rem; font-size:1.06rem; }
+.profile-links { display:flex; flex-wrap:wrap; gap:.45rem; margin:.9rem 0 0; color:var(--muted); font-size:.92rem; font-weight:600; }
+.profile-links a { color:var(--heading); text-decoration-thickness:1px; text-underline-offset:3px; }
+.profile-links a:hover { color:var(--mitochondrial-orange); }
 .button-row { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:1.8rem; }
 .custom-button { display:inline-flex; align-items:center; justify-content:center; min-height:43px; padding:.55rem 1rem; border:1px solid var(--nuclear); border-radius:8px; background:var(--nuclear); color:#FFFFFF; font-family:"Source Sans 3",Arial,sans-serif; font-size:.92rem; font-weight:600; text-decoration:none; transition:background-color .15s ease,transform .15s ease; }
 .custom-button:hover { background:#3F6F91; border-color:#3F6F91; color:#FFFFFF; text-decoration:none; transform:translateY(-1px); }

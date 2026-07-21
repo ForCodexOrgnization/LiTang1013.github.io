@@ -7,22 +7,8 @@ website:
   navbar:
     title: "Li Tang"
     left:
-      - href: index.qmd
-        text: Home
       - href: research.qmd
         text: Research
-      - href: cv.qmd
-        text: CV
-      - href: about.qmd
-        text: About
-      - href: contact.qmd
-        text: Contact
-      - text: More
-        menu:
-          - href: tutorials.qmd
-            text: Tutorials
-          - href: resources.qmd
-            text: Resources
 
   page-footer:
     left: "© 2026 Li Tang"
