@@ -157,7 +157,7 @@ a:focus-visible,.custom-button:focus-visible,.nav-link:focus-visible,.dropdown-i
 .research-connection span { max-width:15ch; }
 .research-connection strong { color:var(--mitochondrial-orange); }
 .connection-arrow { color:var(--mitochondrial-orange); font-size:1.4rem; font-weight:700; }
-@media (max-width:800px) { .themes-section { margin-right:-18px; margin-left:-18px; padding-right:18px; padding-left:18px; } .research-directions { grid-template-columns:1fr; } .research-connection { flex-direction:row; flex-wrap:wrap; } .research-connection span { max-width:none; } }
+@media (max-width:800px) { .compact-intro .narrow-copy { display:block; } .compact-intro .narrow-copy > p:not(.eyebrow):not(.pull-quote) { margin-top:1rem; } .themes-section { margin-right:-18px; margin-left:-18px; padding-right:18px; padding-left:18px; } .research-directions { grid-template-columns:1fr; } .research-connection { flex-direction:row; flex-wrap:wrap; } .research-connection span { max-width:none; } }
 @media (max-width:520px) { .themes-section { margin-right:-14px; margin-left:-14px; padding-right:14px; padding-left:14px; } }
 
 /* Quiet, laboratory-inspired site chrome. */
